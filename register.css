@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.registrationform {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border: grey solid 1px;
+    padding: 20px;
+}
+
+.registrationform .name {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .emailAddress {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .phone {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .password {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .address {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .city {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .state {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .postalcode {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform .country {
+    display: flex;
+    flex-direction: column;
+}
+.registrationform input {
+    border-top: none;
+     border-left: none;
+      border-right: none;
+      margin-top: 13px;
+}
+.footer h2 {
+    text-transform: uppercase;
+    color: blue;
+}
+.footer p {
+    
+    font-weight: bold;
+}
+.footer .submit {
+    margin-top: 20px;
+}
+.footer .submit button {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+}
